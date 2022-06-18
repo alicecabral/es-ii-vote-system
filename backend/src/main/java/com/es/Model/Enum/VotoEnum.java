@@ -1,4 +1,4 @@
-package com.es;
+package com.es.Model.Enum;
 
 public enum VotoEnum {
     BOLSONARO,
