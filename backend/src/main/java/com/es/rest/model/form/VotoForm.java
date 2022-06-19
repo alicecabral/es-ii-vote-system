@@ -10,5 +10,5 @@ public class VotoForm {//completar form de aceitação voto
     private String coordenadaGeografica;
     private String justificativa;
     private String cpf;
-    private String
+//    private String
 }
