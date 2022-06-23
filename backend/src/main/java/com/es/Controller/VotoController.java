@@ -1,12 +1,14 @@
-package com.es.Controller;
+package com.es.controller;
 
-import com.es.Service.VotoService;
+
 import com.es.rest.model.dto.VotoDto;
+import com.es.service.VotoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -26,9 +28,9 @@ public class VotoController {
     public VotoDto findByCpf(@PathVariable("cpf") String cpf){
         return votoService.findVotoByCpf(cpf);
     }
-    @PostMapping
-    @ResponseStatus(code = HttpStatus.CREATED)
-    public VotoDto registraVoto(@RequestBody @Valid){
-
-    }
+//    @PostMapping
+//    @ResponseStatus(code = HttpStatus.CREATED)
+//    public VotoDto registraVoto(@RequestBody @Valid){
+//
+//    }
 }

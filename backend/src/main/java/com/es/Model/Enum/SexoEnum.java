@@ -1,4 +1,4 @@
-package com.es.Model.Enum;
+package com.es.model.Enum;
 
 public enum SexoEnum {
     M,

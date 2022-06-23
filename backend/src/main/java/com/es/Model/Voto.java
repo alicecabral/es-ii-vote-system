@@ -1,6 +1,6 @@
-package com.es.Model;
+package com.es.model;
 
-import com.es.Model.Enum.VotoEnum;
+import com.es.model.Enum.VotoEnum;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -10,16 +10,23 @@ import java.util.Date;
 @Data
 @Table(name="VOTO")
 public class Voto {
-    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     int id;
-    @ForeignKey(name = "cidadao")//nao sei colocar que é FK
+
+    @OneToOne
+    @JoinColumn(name = "cidadao_id")
     private Cidadao cidadao;
+
     @Column(name = "coordenadaGeografica",nullable = false)
     private String coordenadaGeografica;
+
     @Column(name = "justificativa",nullable = false)
     private String justificativa;
+
     @Column(name = "data",nullable = false)
     private Date data;
+
     @Column(name = "voto",nullable = false)
     private VotoEnum voto;
 
