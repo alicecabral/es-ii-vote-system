@@ -7,7 +7,6 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Data
 @Table(name="VOTO")
 public class Voto {
     @Id
@@ -30,26 +29,51 @@ public class Voto {
     @Column(name = "voto",nullable = false)
     private VotoEnum voto;
 
-
-    private boolean CidadaoJaVotou(String CPF){
-        //codigo para testar se o cidadao ja consta no BD
-        return false;
+    public int getId() {
+        return id;
     }
-    private boolean isVotoValido(Voto voto){
-        if(CidadaoJaVotou(voto.cidadao.getCpf())){
-            return false;
-        }
-        return voto.cidadao.getIdade() >= 16;
 
+    public void setId(int id) {
+        this.id = id;
     }
-    public boolean RegistraVoto(Voto voto){
 
-        if(isVotoValido(voto)){
-            //registra Voto no BD
-            return true;
-        }
-        return false;
+    public Cidadao getCidadao() {
+        return cidadao;
+    }
 
+    public void setCidadao(Cidadao cidadao) {
+        this.cidadao = cidadao;
+    }
 
+    public String getCoordenadaGeografica() {
+        return coordenadaGeografica;
+    }
+
+    public void setCoordenadaGeografica(String coordenadaGeografica) {
+        this.coordenadaGeografica = coordenadaGeografica;
+    }
+
+    public String getJustificativa() {
+        return justificativa;
+    }
+
+    public void setJustificativa(String justificativa) {
+        this.justificativa = justificativa;
+    }
+
+    public Date getData() {
+        return data;
+    }
+
+    public void setData(Date data) {
+        this.data = data;
+    }
+
+    public VotoEnum getVoto() {
+        return voto;
+    }
+
+    public void setVoto(VotoEnum voto) {
+        this.voto = voto;
     }
 }
