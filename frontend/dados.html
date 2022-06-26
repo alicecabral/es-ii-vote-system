@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
+        <title>Registro de Voto</title>
+    </head>
+
+    <body>
+        <div class="card" id="titulo">
+            <h1>REGISTRO DE VOTO</h1>
+        </div>
+
+        <div class="card" id="container">
+            <div>
+                <form>
+                    <p class="texto2">Sexo:</p>
+                    <input class="radio" type="radio" name="opcao" value="M"> M
+                    <input class="radio" type="radio" name="opcao" value="F"> F
+                    <input class="radio" type="radio" name="opcao" value="Outro"> Outro
+                </form>
+            </div>
+
+            <hr/>
+
+            <div>
+                <p class="texto2">Idade:</p>
+                <input type="number" id="idade" value="16" min="16" class="form-control" aria-describedby="button-addon2" maxlength>
+            </div>
+
+            <hr/>
+
+            <div>
+                <p class="texto3">Enviar vídeo ou áudio para justificar voto: <br/><i>(Opcional)</i></p>
+                <button class="botoesJustificar"><img src="imagens/video.png" width="20">Vídeo</button>
+                <button class="botoesJustificar"><img src="imagens/audio.png" width="20">Áudio</button>
+            </div>
+
+            <hr/>
+            
+            <a href="compartilhar.html">
+                <button type="submit" id="botaoFinalizar">FINALIZAR</button>
+            </a>
+
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
