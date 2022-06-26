@@ -13,37 +13,42 @@
             <h1>REGISTRO DE VOTO</h1>
         </div>
 
-        <div class="card" id="container">
-            <div>
-                <form>
+        <div class="card2" id="container2">
+            <form>
+                <div id="primeira_parte_form">
+                    <p class="texto2">Nome:</p>
+                    <input class="inputs" type='text' id='nome' name='nome'>
+
+                    <br/> 
+                    
+                    <p class="texto2">CPF:</p>
+                    <input class="inputs" type="text" id="cpf" required>
+                    
+                    <br/> 
+                    
                     <p class="texto2">Sexo:</p>
                     <input class="radio" type="radio" name="opcao" value="M"> M
                     <input class="radio" type="radio" name="opcao" value="F"> F
                     <input class="radio" type="radio" name="opcao" value="Outro"> Outro
-                </form>
-            </div>
-
-            <hr/>
-
-            <div>
-                <p class="texto2">Idade:</p>
-                <input type="number" id="idade" value="16" min="16" class="form-control" aria-describedby="button-addon2" maxlength>
-            </div>
-
-            <hr/>
-
-            <div>
-                <p class="texto3">Enviar vídeo ou áudio para justificar voto: <br/><i>(Opcional)</i></p>
+                    
+                    <br/> 
+                    
+                    <p class="texto2">Idade:</p>
+                    <input class="inputs" type="number" id="idade" value="16" min="16" maxlength>
+                    
+                    <hr/>
+                </div>
+                
+                <p class="texto3">Enviar vídeo ou áudio para justificar voto: <i>(Opcional)</i></p>
                 <button class="botoesJustificar"><img src="imagens/video.png" width="20">Vídeo</button>
                 <button class="botoesJustificar"><img src="imagens/audio.png" width="20">Áudio</button>
-            </div>
-
-            <hr/>
-            
-            <a href="compartilhar.html">
-                <button type="submit" id="botaoFinalizar">FINALIZAR</button>
-            </a>
-
+                
+                <hr/>
+                
+                <a href="compartilhar.html">
+                    <button type="button" id="botaoFinalizar">FINALIZAR</button>
+                </a>
+            </form>
         </div>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

@@ -17,6 +17,19 @@ body {
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.46);
 }
 
+.card2 {
+    background-color: #d5def5;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    border:none;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.46);
+    padding-top: 20px;
+}
+
 #titulo {
     margin-top: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,6 +39,11 @@ body {
 
 #container {
     height: 400px;
+    margin-top: 25px;
+}
+
+#container2 {
+    height: 440px;
     margin-top: 25px;
 }
 
@@ -42,6 +60,7 @@ body {
     padding: 10px;
     padding-bottom: 1px;
     display: inline-block;
+    font-weight: bold;
 }
 
 .texto3 {
@@ -112,10 +131,6 @@ hr{
     -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.46);
 }
 
-form {
-    padding-top: 20px;
-}
-
 .radio {
     padding-left: 50px;
     display: inline-block;
@@ -133,4 +148,17 @@ img {
 
 a {
     margin: 7px;
+}
+
+.inputs{
+	width: 50%;
+	padding: 5px;
+	border: none;
+	border-radius: 25px;
+}
+
+#primeira_parte_form {
+    text-align: left;
+    padding-left: 35px;
+
 }
