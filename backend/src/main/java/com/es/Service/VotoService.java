@@ -1,4 +1,4 @@
-package com.es.service;
+package com.es.Service;
 
 import com.es.model.Cidadao;
 import com.es.model.Enum.SexoEnum;

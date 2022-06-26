@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="script.js"></script>
         <title>Registro de Voto</title>
     </head>
 
@@ -16,20 +17,20 @@
         <div class="card" id="container">
             <p class="texto">Em quem você pretende votar?</p>
 
-            <a href="dados.html">
-                <button class="opcoes">Lula</button>
+            <a href="dados.html" >
+                <button class="opcoes" onclick="registraVoto('LULA')">Lula</button>
             </a>
             <a href="dados.html">
-                <button class="opcoes">Bolsonaro</button>
+                <button class="opcoes" onclick="registraVoto('BOLSONARO')">Bolsonaro</button>
             </a>
             <a href="dados.html">
-                <button class="opcoes">Outro</button>
+                <button class="opcoes" onclick="registraVoto('OUTRO')">Outro</button>
             </a>
             <a href="dados.html">
-                <button class="opcoes">Branco</button>
+                <button class="opcoes" onclick="registraVoto('BRANCO')">Branco</button>
             </a>
             <a href="dados.html">
-                <button class="opcoes" id="ultimaOpcao">Nulo</button>
+                <button class="opcoes" id="ultimaOpcao "onclick="registraVoto('NULO')">Nulo</button>
             </a>
         </div>
         

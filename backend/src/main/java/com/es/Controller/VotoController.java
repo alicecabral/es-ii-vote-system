@@ -1,11 +1,11 @@
-package com.es.controller;
+package com.es.Controller;
 
 
 import com.es.model.Enum.SexoEnum;
 import com.es.model.Enum.VotoEnum;
 import com.es.model.Voto;
 import com.es.rest.model.dto.VotoDto;
-import com.es.service.VotoService;
+import com.es.Service.VotoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

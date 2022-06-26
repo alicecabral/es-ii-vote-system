@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="script.js"></script>
         <title>Registro de Voto</title>
     </head>
 
@@ -17,12 +18,12 @@
             <form>
                 <div id="primeira_parte_form">
                     <p class="texto2">Nome:</p>
-                    <input class="inputs" type='text' id='nome' name='nome'>
+                    <input class="inputs" type='text' id='nome' name='nome' >
 
                     <br/> 
                     
                     <p class="texto2">CPF:</p>
-                    <input class="inputs" type="text" id="cpf" required>
+                    <input class="inputs" type="text" id="cpf"  required >
                     
                     <br/> 
                     
@@ -46,7 +47,7 @@
                 <hr/>
                 
                 <a href="compartilhar.html">
-                    <button type="button" id="botaoFinalizar">FINALIZAR</button>
+                    <button type="button" id="botaoFinalizar" onclick="finalizaVoto()">FINALIZAR</button>
                 </a>
             </form>
         </div>
