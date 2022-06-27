@@ -3,9 +3,9 @@ Tal projeto tem como objetivo o desenvolvimento de uma aplicação que permita a
 ##  Projeto Preliminar
 A fim de definir especificações e funcionalidades do aplicativo que será desenvolvido, foram elaborados os diagramas apresentados abaixo.
 ### Diagrama de Casos de Uso
-
+![imagem1](/Imagens/diagramaCasosUso.png)
 ### Diagrama de Classes
-
+![imagem2](/Imagens/diagramaClasses.png)
 ##  Tecnologias Usadas
 Para o desenvolvimento deste projeto foram utilizadas as seguintes linguagens  e frameworks:
 * Implementação do Front-end: linguagens Html, Css e JavaScript
@@ -27,10 +27,25 @@ seguinte maneira:
 * Juliana Silvestre: Product Owner
 
 Na ferramente Scrum Wise, o projeto foi separado em 5 sprints, sendo elas:
-1. Sprint 1: desenvolvimento do diagrama de casos de uso e diagrama de classes
-2. Sprint 2: desenvolvimento do protótipo do aplicativo 
-3. Sprint 3: desenvolvimento do front e back end
-4. Sprint 4: integração entre front e back end
-5. Sprint 5: testes
-Ao final do projeto o grupo conseguiu concluir todas as tarefas definidas previamente, conforme a imagem abaixo
+1. Sprint 1: desenvolvimento do diagrama de casos de uso e diagrama de classes 
 
+![imagem3](/Imagens/sprint1.png)
+
+2. Sprint 2: desenvolvimento do protótipo do aplicativo 
+
+![imagem4](/Imagens/sprint2.png)
+
+3. Sprint 3: desenvolvimento do front e back end 
+
+![imagem5](/Imagens/sprint3.png)
+
+4. Sprint 4: integração entre front e back end 
+
+![imagem6](/Imagens/sprint4.png)
+
+5. Sprint 5: testes 
+
+![imagem7](/Imagens/sprint5.png)
+
+Ao final do projeto o grupo conseguiu concluir todas as tarefas definidas previamente, conforme a imagem abaixo
+![imagem8](/Imagens/tarefas.png)
